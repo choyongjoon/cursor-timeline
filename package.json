@@ -1,0 +1,27 @@
+{
+  "name": "cursor-timeline",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky",
+    "check": "ultracite check",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "fix": "ultracite fix"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.0",
+    "@sveltejs/adapter-auto": "^7.0.0",
+    "@sveltejs/kit": "^2.50.2",
+    "@sveltejs/vite-plugin-svelte": "^6.2.4",
+    "husky": "9.1.7",
+    "svelte": "^5.51.0",
+    "svelte-check": "^4.3.6",
+    "typescript": "^5.9.3",
+    "ultracite": "7.2.3",
+    "vite": "^7.3.1"
+  }
+}
